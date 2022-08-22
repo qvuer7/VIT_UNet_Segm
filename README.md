@@ -8,7 +8,7 @@
   - Utils
 2. data - directory for your data used for UNet trianing possible to use any (e.g [This small dataset](https://github.com/VikramShenoy97/Human-Segmentation-Dataset))
 
-##Own configuration
+## Own configuration
 To train your own UNet model based on VIT please configure /NN/train.py file for image, annotation and transformer model paths. 
 Trasnformer model used in this work found in [here](https://github.com/rstrudel/segmenter) . Transformer models checkpoints and variants could be found [here](https://github.com/rstrudel/segmenter)
 
